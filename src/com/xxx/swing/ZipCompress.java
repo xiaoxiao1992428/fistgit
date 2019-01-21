@@ -254,7 +254,7 @@ public class ZipCompress implements Runnable {
 	    		            zos.closeEntry();
 	    		
 	    		            in.close();
-	    			        jta.append(sourceFile.getName()+"压缩完成！");
+	    			        jta.append(sourceFile.getName()+"压缩完成！\r\n");
 	    			        jta.paintImmediately(jta.getBounds());
 	    		
 	    		        } else {
@@ -327,7 +327,7 @@ public class ZipCompress implements Runnable {
 			        FileOutputStream fos1 = new FileOutputStream(new File("d:/u04/"+zipFileName));
 			        
 			        toZip("D:/u04/", fos1,true);
-			        jta.append("all files 压缩完成！");
+			        jta.append("all files 压缩完成！\r\n");
 			        jta.paintImmediately(jta.getBounds()); 
 			        
 			        
