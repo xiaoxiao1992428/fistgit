@@ -24,6 +24,7 @@ public class SwingTest extends JFrame{
 	public void init(){
 		
 		
+		
 		this.setTitle("zipper app");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setBounds(500,500,1000,500);
